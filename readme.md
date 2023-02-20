@@ -4,10 +4,11 @@
 
 
 # ABOUT THIS APP
+This application is built on MVC Framework.
 
 In this job board application, there are two usertype 
 1) Candidate  #one who apply and find for job
-2) Recruiter   #onewho create a job so seekers can apply on it
+2) Recruiter   #onewho create a job so candidate can apply on it
 
 Inputformat
 name / email /usertype is String
@@ -33,4 +34,8 @@ Tasks every user can perform -
 * Get a specific job using job id.
 
 
-Nodejs, express, mongodb and many other modules used 
+
+Nodejs, ExpressJs,is used for creating and running server. 
+Mongodb is used for storing data.
+Mongoose ORM is used for interacting with database.
+JWT is used for authentication and authorizations of users.
